@@ -1,3 +1,5 @@
+> DO NOT USE THIS EXTENSION, IT is JUST an EXAMPLE for a Flask Tutorial, if you are looking for a real flask_sitemap go to [https://github.com/inveniosoftware/flask-sitemap](https://github.com/inveniosoftware/flask-sitemap)
+
 # Flask Simple Sitemap
 
 Esta extensão adiciona a funcionalidade de geração de sitemap ao seu app flask.
