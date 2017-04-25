@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for loc, data in paths.items() %}
+    <url>
+        <loc>{{loc|safe}}</loc>
+        {% for tag_name, value in data.items() %}
+            <{{tag_name}}>{{value}}</{{tag_name}}>
+        {% endfor %}
+    </url>
+    {% endfor %}
+</urlset>

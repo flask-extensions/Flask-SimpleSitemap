@@ -1,0 +1,1 @@
+include flask_simple_sitemap/templates/sitemap.xml
