@@ -1,5 +1,3 @@
-> DO NOT USE THIS EXTENSION, IT is JUST an EXAMPLE for a Flask Tutorial, if you are looking for a real flask_sitemap go to [https://github.com/inveniosoftware/flask-sitemap](https://github.com/inveniosoftware/flask-sitemap)
-
 # Flask Simple Sitemap
 
 Esta extensão adiciona a funcionalidade de geração de sitemap ao seu app flask.
@@ -36,3 +34,7 @@ esta extensão utiliza o namespace de configuração `SIMPLE_SITEMAP_`
 - **SIMPLE_SITEMAP_BLUEPRINT** define o nome do blueprint e do url prefix (default: `'simple_sitemap'`)
 - **SIMPLE_SITEMAP_URL** define a url que irá renderizar o sitemap (default: `'/sitemap.xml'`)
 - **SIMPLE_SITEMAP_PATHS** dicionário de URLs a serem adicionadas ao sitemap (exemplo: URLs criadas a partir de posts em bancos de dados)
+
+
+# alternatives
+[https://github.com/inveniosoftware/flask-sitemap](https://github.com/inveniosoftware/flask-sitemap)
