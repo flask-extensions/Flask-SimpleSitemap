@@ -8,14 +8,14 @@ Para instalar basta clonar o repositório e executar:
 
     $ python setup.py install
 
-Ou via `pip install flask_simple_sitemap`
+Ou via `pip install flask_simplesitemap`
 
 ## Como usar?
 
 Basta importar e inicializar:
 
     from flask import Flask
-    from flask_simple_sitemap import SimpleSitemap
+    from flask_simplesitemap import SimpleSitemap
 
     app = Flask(__name__)
     SimpleSitemap(app)
